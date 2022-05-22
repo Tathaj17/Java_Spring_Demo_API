@@ -25,7 +25,7 @@ class RootCaControllerTest {
 		this.mvc = MockMvcBuilders.standaloneSetup(rootCaController).build();
 	}
 /**
- * 
+ * test
  * @throws Exception
  */
 	@Test
