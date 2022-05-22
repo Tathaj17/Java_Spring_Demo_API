@@ -24,7 +24,10 @@ class RootCaControllerTest {
 		MockitoAnnotations.initMocks(this);
 		this.mvc = MockMvcBuilders.standaloneSetup(rootCaController).build();
 	}
-
+/**
+ * 
+ * @throws Exception
+ */
 	@Test
 	void test() throws Exception {
 		Employee employee = new Employee();
